@@ -1,36 +1,19 @@
-## C++ #########################################################################
+# Build and generated outputs
+build/
+build-local/
+result/
 
-# Prerequisites
-*.d
+# Python env/cache
+.venv/
+__pycache__/
+*.pyc
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-*/build/*
+# IDE/OS
+.vscode/
+.DS_Store
